@@ -65,7 +65,8 @@ chmod +777 ${path}/deployment/docker-swarm/self-sign.sh
 cd ${path}/build/deployment/docker-swarm && make
 
 }
-path=$(pwd)
+#path=$(pwd)
+path=$(dirname "$PWD")
 if [ 'E3' == $cpu ]
 then
         funcE3_VCA2
@@ -84,7 +85,7 @@ fi
 
 
 # get pwd
-sed -i "s?locate?${path}?" ${path}/auto-web.yml
+sed -i "s?locate?${path}?" ${path}/auto-CDN/auto-web.yml
 
 
 

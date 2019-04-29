@@ -6,7 +6,7 @@
   
   tasks:
     - name: 1.copy selenium script
-      copy: src=locate/test dest=/home/media/
+      copy: src=/home/media/demo2/CDN-Transcode-Sample/auto-CDN/test dest=/home/media/
     - name: 2.chmod export
       file: path=/home/media/test/export.sh mode=0777
     - name: 3.chmod chromedriver
