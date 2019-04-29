@@ -1,0 +1,20 @@
+---
+
+- hosts: all
+  become: true
+  become_user: root
+  
+  tasks:
+    - name: 1.copy selenium script
+      copy: src=locate/test dest=/home/media/
+    - name: 2.chmod export
+      file: path=/home/media/test/export.sh mode=0777
+    - name: 3.chmod chromedriver
+      file: path=/home/media/test/chromedriver mode=0777
+    - name: 4.chmod make.sh
+      file: path=/home/media/test/make.sh mode=0777
+    - name: 4.python cfg
+      shell: chdir=/home/media/test/ ./make.sh
+      #    - name: 3.run script
+      #      shell: chdir=/home/media/test/ ./export.sh
+    
