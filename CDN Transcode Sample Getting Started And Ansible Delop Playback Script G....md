@@ -55,7 +55,7 @@ cd CDN-Transcode-Sample/auto-CDN/ && ansible-playbook auto-web.yml
 ```
 
 + #### Make all users have access to GUI programs to control remote host browser(Root is necessary, but media is not.)
-###### Run below command on Client Local Termina
+###### Run below command on Client Local Termina:
 ```
 xhost +
 ```
