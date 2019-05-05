@@ -1,9 +1,9 @@
 ## CDN Transcode Sample Getting Started And Ansible Delop Playback Script Guide
 
 
-**This document describes two important functions.**
-**1.Auto build the CDN Transcode Sample and complete make start_docker_compose on server.**
-**2.Realize the deployment of automatic playback script by Ansible and auto playback on client.**
+#### This document describes two important functions.
+#### 1.Auto build the CDN Transcode Sample and complete make start_docker_compose on server.
+#### 2.Realize the deployment of automatic playback script by Ansible and auto playback on client.
 &nbsp;
 
 
