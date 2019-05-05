@@ -24,7 +24,7 @@ cd CDN-Transcode-Sample/auto-CDN/ && ./auto-deloy.sh
 
 
 ### step 2:
- *Open another terminal *
+ *Open another terminal*
 + #### Generate ssh key on the server, which we have to copy to all the remote hosts(client machine) for doing deployments or configurations on them:
 ###### Run below command on server:
 ```
